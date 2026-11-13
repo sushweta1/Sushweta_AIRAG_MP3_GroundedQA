@@ -1,0 +1,20 @@
+Question ID                            Type       Top Score
+-----------------------------------------------------------------
+q1_red_headed_league_assistant         ANSWER     0.689
+q2_speckled_band_weapon                ANSWER     0.528
+q3_scandal_bohemia_adler               ANSWER     0.589
+q4_engineers_thumb_press               ANSWER     0.583
+abstain_moriarty                       ABSTAIN    0.482
+abstain_out_of_domain                  ABSTAIN    0.144
+q5_blue_carbuncle_theft                ANSWER     0.583
+q6_scandal_bohemia_multi_hop           ANSWER     0.669
+q7_abstain_baskerville                 ABSTAIN    0.521
+
+SCORE DISTRIBUTION
+-----------------------------------------------------------------
+Answerable minimum: 0.528
+Answerable maximum: 0.689
+Unanswerable minimum: 0.144
+Unanswerable maximum: 0.521
+Score separation: YES
+Candidate threshold: 0.524

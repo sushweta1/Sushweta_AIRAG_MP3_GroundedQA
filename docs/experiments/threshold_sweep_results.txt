@@ -1,0 +1,390 @@
+
+======================================================================
+K = 7 | THRESHOLD = 0.3
+======================================================================
+
+Question: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+Answer: The assistant working at Jabez Wilson's pawnshop was Vincent Spaulding, who was actually John Clay in disguise [2][4].
+Abstained: False
+Citations: [{'n': 2, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'Holmes Investigates', 'score': 0.596}, {'n': 4, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'The Capture', 'score': 0.491}]
+Latency: 2105 ms
+
+Question: What killed Julia Stoner at Stoke Moran, and how was the method delivered?
+Answer: Julia Stoner was killed by a swamp adder, the deadliest snake in India, which was delivered through a ventilator that opened into her bedroom. Doctor Roylott had used the snake to attack her, as it had attacked the only living thing in the room beyond [5][7].
+Abstained: False
+Citations: [{'n': 5, 'source': '02_speckled_band.txt', 'title': 'The Adventure of the Speckled Band', 'section': 'The Explanation', 'score': 0.48}, {'n': 7, 'source': '02_speckled_band.txt', 'title': 'The Adventure of the Speckled Band', 'section': 'The Vigil', 'score': 0.473}]
+Latency: 2730 ms
+
+Question: In A Scandal in Bohemia, who is Irene Adler and what does the King of Bohemia want from her?
+Answer: Irene Adler is a celebrated American opera contralto who had a brief attachment with the King of Bohemia when he was the Crown Prince. The King wants a photograph that shows him and Irene Adler together, which she possesses. He is concerned because she has threatened to send the photograph to the bride's family on the day of his betrothal, out of revenge for being cast aside [1][2].
+Abstained: False
+Citations: [{'n': 1, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.589}, {'n': 2, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.585}]
+Latency: 2099 ms
+
+Question: What machine was Victor Hatherley asked to inspect, and what was it secretly being used for?
+Answer: Victor Hatherley was asked to inspect a hydraulic press, which was secretly being used to stamp counterfeit half-crowns from a base alloy of nickel and tin [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '04_engineers_thumb.txt', 'title': "The Adventure of the Engineer's Thumb", 'section': 'The Coining Operation', 'score': 0.45}]
+Latency: 1703 ms
+
+Question: Who is Professor Moriarty, and how does he meet his end?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 2818 ms
+
+Question: What is the boiling point of water in degrees Celsius?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 406 ms
+
+Question: Who stole the Blue Carbuncle, and where did he hide it to avoid being caught?
+Answer: James Ryder stole the Blue Carbuncle, and he hid it by pushing the stone down the throat of a goose to avoid being caught [5].
+Abstained: False
+Citations: [{'n': 5, 'source': '03_blue_carbuncle.txt', 'title': 'The Adventure of the Blue Carbuncle', 'section': 'James Ryder Confesses', 'score': 0.331}]
+Latency: 1754 ms
+
+Question: How did Holmes discover where Irene Adler had hidden the photograph, and why did he fail to recover it the following morning?
+Answer: Holmes discovered where Irene Adler had hidden the photograph by engineering a situation where she would reveal its hiding place through her own actions. He planned a smoke rocket trick to create a false alarm of fire, which caused Adler to dash to the sliding panel above the bell-pull to retrieve the photograph. However, he failed to recover it the following morning because Adler had recognized him in disguise and had already left with the photograph, promising not to use it against the King and taking it with her as a safeguard [2][4].
+Abstained: False
+Citations: [{'n': 2, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Execution', 'score': 0.657}, {'n': 4, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'Irene Adler Wins', 'score': 0.619}]
+Latency: 3246 ms
+
+Question: What was the connection between the Baskerville family curse and the mysterious hound investigated by Sherlock Holmes?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 1448 ms
+
+QUESTION-LEVEL RESULTS:
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 1.0
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 2034 ms
+
+======================================================================
+K = 7 | THRESHOLD = 0.5
+======================================================================
+
+Question: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+Answer: The assistant working at Jabez Wilson's pawnshop was named Vincent Spaulding, but his real identity was John Clay, who was involved in the scheme to rob the bank [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'The Capture', 'score': 0.491}]
+Latency: 2153 ms
+
+Question: What killed Julia Stoner at Stoke Moran, and how was the method delivered?
+Answer: Julia Stoner was killed by a swamp adder, the deadliest snake in India, which was delivered through a ventilator that opened into her bedroom. Doctor Roylott had used the snake to attack her, as it had attacked the only living thing in the room beyond [5][7].
+Abstained: False
+Citations: [{'n': 5, 'source': '02_speckled_band.txt', 'title': 'The Adventure of the Speckled Band', 'section': 'The Explanation', 'score': 0.48}, {'n': 7, 'source': '02_speckled_band.txt', 'title': 'The Adventure of the Speckled Band', 'section': 'The Vigil', 'score': 0.473}]
+Latency: 2897 ms
+
+Question: In A Scandal in Bohemia, who is Irene Adler and what does the King of Bohemia want from her?
+Answer: Irene Adler is a celebrated American opera contralto who had a brief attachment with the King of Bohemia when he was the Crown Prince. The King wants a photograph that shows him and Irene Adler together, which she possesses. He is concerned because she has threatened to send the photograph to the bride's family on the day of his betrothal, out of revenge for being cast aside [1][2].
+Abstained: False
+Citations: [{'n': 1, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.589}, {'n': 2, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.585}]
+Latency: 2197 ms
+
+Question: What machine was Victor Hatherley asked to inspect, and what was it secretly being used for?
+Answer: Victor Hatherley was asked to inspect a hydraulic press, which was secretly being used to stamp counterfeit half-crowns from a base alloy of nickel and tin [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '04_engineers_thumb.txt', 'title': "The Adventure of the Engineer's Thumb", 'section': 'The Coining Operation', 'score': 0.45}]
+Latency: 1709 ms
+
+Question: Who is Professor Moriarty, and how does he meet his end?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 410 ms
+
+Question: What is the boiling point of water in degrees Celsius?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 412 ms
+
+Question: Who stole the Blue Carbuncle, and where did he hide it to avoid being caught?
+Answer: James Ryder stole the Blue Carbuncle, and he hid it by pushing the stone down the throat of a goose to avoid being caught [5].
+Abstained: False
+Citations: [{'n': 5, 'source': '03_blue_carbuncle.txt', 'title': 'The Adventure of the Blue Carbuncle', 'section': 'James Ryder Confesses', 'score': 0.331}]
+Latency: 2012 ms
+
+Question: How did Holmes discover where Irene Adler had hidden the photograph, and why did he fail to recover it the following morning?
+Answer: Holmes discovered where Irene Adler had hidden the photograph by engineering a situation where she would reveal its hiding place through her own actions. He planned a smoke rocket trick to create a false alarm of fire, which caused Adler to dash to the sliding panel above the bell-pull to retrieve the photograph. However, he failed to recover it the following morning because Adler had already recognized him in disguise and had left with the photograph, promising not to use it against the King, as she had resolved to flee with her husband [1][4][5].
+Abstained: False
+Citations: [{'n': 1, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'Irene Adler Wins', 'score': 0.669}, {'n': 4, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'Irene Adler Wins', 'score': 0.619}, {'n': 5, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Execution', 'score': 0.554}]
+Latency: 3407 ms
+
+Question: What was the connection between the Baskerville family curse and the mysterious hound investigated by Sherlock Holmes?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 1315 ms
+
+QUESTION-LEVEL RESULTS:
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 1.0
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 1835 ms
+
+======================================================================
+K = 7 | THRESHOLD = 0.524
+======================================================================
+
+Question: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+Answer: The assistant working at Jabez Wilson's pawnshop was Vincent Spaulding, who was actually John Clay in disguise [2][4].
+Abstained: False
+Citations: [{'n': 2, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'Holmes Investigates', 'score': 0.596}, {'n': 4, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'The Capture', 'score': 0.491}]
+Latency: 1642 ms
+
+Question: What killed Julia Stoner at Stoke Moran, and how was the method delivered?
+Answer: Julia Stoner was killed by a swamp adder, the deadliest snake in India, which was delivered through a ventilator that opened into her bedroom. Doctor Roylott had used the snake to attack her, as it had attacked the only living thing in the room beyond [5][7].
+Abstained: False
+Citations: [{'n': 5, 'source': '02_speckled_band.txt', 'title': 'The Adventure of the Speckled Band', 'section': 'The Explanation', 'score': 0.48}, {'n': 7, 'source': '02_speckled_band.txt', 'title': 'The Adventure of the Speckled Band', 'section': 'The Vigil', 'score': 0.473}]
+Latency: 3365 ms
+
+Question: In A Scandal in Bohemia, who is Irene Adler and what does the King of Bohemia want from her?
+Answer: Irene Adler is a celebrated American opera contralto who had a brief attachment with the King of Bohemia when he was Crown Prince. The King wants a photograph that shows him and Irene Adler together, which she possesses. He is concerned because she has threatened to send the photograph to the bride's family on the day of his betrothal, out of revenge for being cast aside [1][2].
+Abstained: False
+Citations: [{'n': 1, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.589}, {'n': 2, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.585}]
+Latency: 2012 ms
+
+Question: What machine was Victor Hatherley asked to inspect, and what was it secretly being used for?
+Answer: Victor Hatherley was asked to inspect a hydraulic press, which was secretly being used to stamp counterfeit half-crowns from a base alloy of nickel and tin [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '04_engineers_thumb.txt', 'title': "The Adventure of the Engineer's Thumb", 'section': 'The Coining Operation', 'score': 0.45}]
+Latency: 1715 ms
+
+Question: Who is Professor Moriarty, and how does he meet his end?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 455 ms
+
+Question: What is the boiling point of water in degrees Celsius?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 441 ms
+
+Question: Who stole the Blue Carbuncle, and where did he hide it to avoid being caught?
+Answer: James Ryder stole the Blue Carbuncle, and he hid it by pushing the stone down the throat of a goose to avoid being caught [5].
+Abstained: False
+Citations: [{'n': 5, 'source': '03_blue_carbuncle.txt', 'title': 'The Adventure of the Blue Carbuncle', 'section': 'James Ryder Confesses', 'score': 0.33}]
+Latency: 1744 ms
+
+Question: How did Holmes discover where Irene Adler had hidden the photograph, and why did he fail to recover it the following morning?
+Answer: Holmes discovered where Irene Adler had hidden the photograph by engineering a situation where she would reveal its hiding place through her own actions. He planned a smoke rocket trick to create a false alarm of fire, which caused Adler to dash to the sliding panel above the bell-pull to retrieve the photograph. However, he failed to recover it the following morning because Adler had already recognized him in disguise and had left with the photograph, promising not to use it against the King, as she had married a man whose love was more important to her than the King's hatred [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'Irene Adler Wins', 'score': 0.619}]
+Latency: 3520 ms
+
+Question: What was the connection between the Baskerville family curse and the mysterious hound investigated by Sherlock Holmes?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 451 ms
+
+QUESTION-LEVEL RESULTS:
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 1.0
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 1705 ms
+
+======================================================================
+K = 7 | THRESHOLD = 0.55
+======================================================================
+
+Question: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+Answer: The assistant working at Jabez Wilson's pawnshop was Vincent Spaulding, who was actually John Clay in disguise [2][4].
+Abstained: False
+Citations: [{'n': 2, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'Holmes Investigates', 'score': 0.596}, {'n': 4, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'The Capture', 'score': 0.491}]
+Latency: 1738 ms
+
+Question: What killed Julia Stoner at Stoke Moran, and how was the method delivered?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 370 ms
+
+Question: In A Scandal in Bohemia, who is Irene Adler and what does the King of Bohemia want from her?
+Answer: Irene Adler is a celebrated American opera contralto who had a brief romantic connection with the King of Bohemia when he was Crown Prince. The King wants a photograph that shows him and Irene Adler together, which she possesses. He is concerned because she has threatened to send the photograph to the bride's family on the day of his betrothal, which would cause a scandal [1][2].
+Abstained: False
+Citations: [{'n': 1, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.589}, {'n': 2, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Photograph', 'score': 0.585}]
+Latency: 2370 ms
+
+Question: What machine was Victor Hatherley asked to inspect, and what was it secretly being used for?
+Answer: Victor Hatherley was asked to inspect a hydraulic press, which was secretly being used to stamp counterfeit half-crowns from a base alloy of nickel and tin [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '04_engineers_thumb.txt', 'title': "The Adventure of the Engineer's Thumb", 'section': 'The Coining Operation', 'score': 0.45}]
+Latency: 1992 ms
+
+Question: Who is Professor Moriarty, and how does he meet his end?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 411 ms
+
+Question: What is the boiling point of water in degrees Celsius?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 435 ms
+
+Question: Who stole the Blue Carbuncle, and where did he hide it to avoid being caught?
+Answer: James Ryder stole the Blue Carbuncle, and he hid it by pushing the stone down the throat of a goose to avoid being caught [5].
+Abstained: False
+Citations: [{'n': 5, 'source': '03_blue_carbuncle.txt', 'title': 'The Adventure of the Blue Carbuncle', 'section': 'James Ryder Confesses', 'score': 0.331}]
+Latency: 1985 ms
+
+Question: How did Holmes discover where Irene Adler had hidden the photograph, and why did he fail to recover it the following morning?
+Answer: Holmes discovered where Irene Adler had hidden the photograph by engineering a situation where she would reveal its hiding place through her own actions. He planned a smoke rocket trick to create a false alarm of fire, which caused Adler to dash to the sliding panel above the bell-pull to retrieve the photograph. However, he failed to recover it the following morning because Adler had already recognized him in disguise and had left with the photograph, promising not to use it against the King, as she had resolved to flee with her husband [1][4][5].
+Abstained: False
+Citations: [{'n': 1, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'Irene Adler Wins', 'score': 0.669}, {'n': 4, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'Irene Adler Wins', 'score': 0.619}, {'n': 5, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'The Execution', 'score': 0.554}]
+Latency: 3392 ms
+
+Question: What was the connection between the Baskerville family curse and the mysterious hound investigated by Sherlock Holmes?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 419 ms
+
+QUESTION-LEVEL RESULTS:
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 0.833
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 1457 ms
+
+======================================================================
+K = 7 | THRESHOLD = 0.6
+======================================================================
+
+Question: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+Answer: The assistant working at Jabez Wilson's pawnshop was named Vincent Spaulding, but his real identity was John Clay, who was involved in the scheme to rob the bank [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '01_red_headed_league.txt', 'title': 'The Red-Headed League', 'section': 'The Capture', 'score': 0.491}]
+Latency: 2038 ms
+
+Question: What killed Julia Stoner at Stoke Moran, and how was the method delivered?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 456 ms
+
+Question: In A Scandal in Bohemia, who is Irene Adler and what does the King of Bohemia want from her?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 395 ms
+
+Question: What machine was Victor Hatherley asked to inspect, and what was it secretly being used for?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 554 ms
+
+Question: Who is Professor Moriarty, and how does he meet his end?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 407 ms
+
+Question: What is the boiling point of water in degrees Celsius?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 426 ms
+
+Question: Who stole the Blue Carbuncle, and where did he hide it to avoid being caught?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 442 ms
+
+Question: How did Holmes discover where Irene Adler had hidden the photograph, and why did he fail to recover it the following morning?
+Answer: Holmes discovered where Irene Adler had hidden the photograph by engineering a situation where she would reveal its hiding place through her own actions. He planned a smoke rocket trick to create a false alarm of fire, which caused Adler to dash to the sliding panel above the bell-pull to retrieve the photograph. However, he failed to recover it the following morning because Adler had already recognized him in disguise and had left with the photograph, promising not to use it against the King, as she had married a man whose love was more important to her than the King's hatred [4].
+Abstained: False
+Citations: [{'n': 4, 'source': '05_scandal_in_bohemia.txt', 'title': 'A Scandal in Bohemia', 'section': 'Irene Adler Wins', 'score': 0.619}]
+Latency: 3819 ms
+
+Question: What was the connection between the Baskerville family curse and the mysterious hound investigated by Sherlock Holmes?
+Answer: I don't know based on the provided documents.
+Abstained: True
+Citations: []
+Latency: 401 ms
+
+QUESTION-LEVEL RESULTS:
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 0.333
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 993 ms

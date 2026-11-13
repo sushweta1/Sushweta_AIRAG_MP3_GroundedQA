@@ -1,0 +1,88 @@
+
+======================================================================
+K = 3 | THRESHOLD = 0.30
+======================================================================
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 0.5
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 1843 ms
+
+======================================================================
+K = 5 | THRESHOLD = 0.30
+======================================================================
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': True, 'grounded': False, 'ok': False}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 0.833
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 2508 ms
+
+======================================================================
+K = 7 | THRESHOLD = 0.30
+======================================================================
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 1.0
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 2131 ms
+
+======================================================================
+K = 10 | THRESHOLD = 0.30
+======================================================================
+{'id': 'q1_red_headed_league_assistant', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q2_speckled_band_weapon', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q3_scandal_bohemia_adler', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q4_engineers_thumb_press', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'abstain_moriarty', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'abstain_out_of_domain', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+{'id': 'q5_blue_carbuncle_theft', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q6_scandal_bohemia_multi_hop', 'type': 'answer', 'hit': True, 'abstained': False, 'grounded': True, 'ok': True}
+{'id': 'q7_abstain_baskerville', 'type': 'abstain', 'hit': '-', 'abstained': True, 'grounded': '-', 'ok': True}
+
+SUMMARY:
+n_answerable: 6
+n_abstain: 3
+retrieval_hit_rate: 1.0
+grounded_rate: 1.0
+abstention_accuracy: 1.0
+hallucination_rate: 0.0
+Average latency: 1972 ms

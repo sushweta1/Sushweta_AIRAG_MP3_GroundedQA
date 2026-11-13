@@ -1,0 +1,29 @@
+MP3 Citation Validation Experiment
+Controlled synthetic test cases
+==================================================
+
+Scenario: Valid citation
+Answer: Holmes discovered the photograph [1].
+Available sources: 2
+Validation: {'used': [1], 'invalid': [], 'has_citation': True}
+Result: PASS
+
+Scenario: Fabricated citation
+Answer: Holmes discovered the photograph [7].
+Available sources: 2
+Validation: {'used': [], 'invalid': [7], 'has_citation': False}
+Result: PASS
+
+Scenario: Mixed valid and fabricated citations
+Answer: Holmes discovered the photograph [1][9].
+Available sources: 2
+Validation: {'used': [1], 'invalid': [9], 'has_citation': True}
+Result: PASS
+
+Scenario: Missing citation
+Answer: Holmes discovered the photograph.
+Available sources: 2
+Validation: {'used': [], 'invalid': [], 'has_citation': False}
+Result: PASS
+
+All 4 citation validation scenarios passed.

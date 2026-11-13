@@ -1,0 +1,39 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv*/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local vector database
+qdrant_storage/
+
+# Backup files
+*.bak
+*.pre_optimization
+
+# Original starter and course FAQ
+mp3_grounded_qa_starter.py
+MP3_FAQ.md
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and archives
+*.log
+*.zip
+
+# Accidental shell-expression storage directory
+/$(pwd)/
